@@ -1,4 +1,4 @@
-platform :ios, "5.0"
+platform :ios, "7.0"
 
 target 'VZ' do
 	pod 'AVOSCloud', :podspec => 'https://download.avoscloud.com/sdk/iOS/current/AVOSCloud.podspec'

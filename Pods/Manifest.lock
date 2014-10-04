@@ -1,0 +1,37 @@
+PODS:
+  - AVOSCloud (2.6.5.1)
+  - AVOSCloudSNS (2.6.5.1):
+    - AVOSCloud
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core
+    - MMDrawerController/MMDrawerBarButtonItem
+    - MMDrawerController/MMDrawerVisualStates
+    - MMDrawerController/Subclass
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - SIAlertView (1.3)
+
+DEPENDENCIES:
+  - AVOSCloud (from `https://download.avoscloud.com/sdk/iOS/current/AVOSCloud.podspec`)
+  - AVOSCloudSNS (from `https://download.avoscloud.com/sdk/iOS/current/AVOSCloudSNS.podspec`)
+  - MMDrawerController
+  - SIAlertView
+
+EXTERNAL SOURCES:
+  AVOSCloud:
+    :podspec: https://download.avoscloud.com/sdk/iOS/current/AVOSCloud.podspec
+  AVOSCloudSNS:
+    :podspec: https://download.avoscloud.com/sdk/iOS/current/AVOSCloudSNS.podspec
+
+SPEC CHECKSUMS:
+  AVOSCloud: ec87a5301995a407696d9f356118e692bf8962c2
+  AVOSCloudSNS: fc9d615b52c56a93d9f3e156c231669894ab9363
+  MMDrawerController: c3ab7a318ddc7e2bcd133139c3161af08c6e1197
+  SIAlertView: d00609a1faa9d82f17b9f0b4eede64e84a577b10
+
+COCOAPODS: 0.34.1
